@@ -17,6 +17,9 @@ export const Header = () => {
           <Link to="/contact">Contact</Link>
         </li>
         <li>
+          <Link to="/contactMUI">ContactMUI</Link>
+        </li>
+        <li>
           <Link to="/posts">Posts</Link>
         </li>
       </ul>

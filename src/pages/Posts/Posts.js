@@ -18,7 +18,7 @@ export const Posts = () => {
     <div>
       <h1>Posts</h1>
 
-      <div className={styles.postsWrapper}>
+      <div className="d-flex flex-column">
         {posts.map((post) => {
           return (
             <Link to={`${post.id}`} key={post.id}>
